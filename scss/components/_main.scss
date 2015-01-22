@@ -1,0 +1,88 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+	box-sizing: border-box;
+
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+html {
+	background-color: #E3A24A;
+	font-size: 1.5rem;
+}
+
+main h1, p{
+	text-align: center;
+
+}
+
+h1 {
+	font-family: 'Josefin Slab', Serif;
+	font-size: 3rem;
+	text-transform: uppercase;
+	margin: 0 auto 1rem;
+}
+
+main p {
+	font-family: 'lato', sans-serif;
+	max-width: 20rem;
+	text-align: center;
+	display: block;
+	margin: 0 auto 0;
+
+}
+
+.icon-goggles {
+	font-size: 10rem;
+	display: block;
+	width: 13rem;
+	margin: 2rem auto 0;
+	color: #000;
+}
+
+.icon-goggles:link,
+.icon-goggles:visited{
+	color: #000;
+}
+
+.icon-goggles:hover,
+.icon-goggles:active{
+	color: #3C3E6D;
+
+}
+
+.social-icons {
+	display: block;
+	width: 10rem;
+	margin: 1rem auto 0;
+	text-align: center;
+	font-size: 3rem;
+	color: #000;
+}
+
+.social-icons i{
+	color: #000;
+}
+
+.social:link{
+	color: #000;
+}
+
+.social:hover{
+	color: #fff;
+	background-color: #3C3E6D;
+
+}
+
+
