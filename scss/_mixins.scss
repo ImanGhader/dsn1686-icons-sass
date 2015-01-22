@@ -1,7 +1,10 @@
-@mixin social-icon($bg-color, $hover-color, $text-color){
-	font-size: 10rem;
+@mixin button($font-size, $color, $hover-color){
+	font-size: $font-size;
 	display: block;
 	width: 13rem;
 	margin: 2rem auto 0;
-	color: #000;
+	color: $color;
+	&:hover {
+		color: $hover-color;
+	}
 }

@@ -20,6 +20,7 @@ html {
 html {
 	background-color: #E3A24A;
 	font-size: 1.5rem;
+	line-height: 2rem;
 }
 
 main h1, p{
@@ -44,11 +45,7 @@ main p {
 }
 
 .icon-goggles {
-	font-size: 10rem;
-	display: block;
-	width: 13rem;
-	margin: 2rem auto 0;
-	color: #000;
+	@include button(10rem, $primary, $secondary);
 }
 
 .icon-goggles:link,

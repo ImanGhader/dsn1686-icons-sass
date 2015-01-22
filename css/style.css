@@ -30,7 +30,8 @@ html {
 
 html {
   background-color: #E3A24A;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  line-height: 2rem; }
 
 main h1, p {
   text-align: center; }
@@ -53,7 +54,9 @@ main p {
   display: block;
   width: 13rem;
   margin: 2rem auto 0;
-  color: #000; }
+  color: #3c3e6d; }
+  .icon-goggles:hover {
+    color: white; }
 
 .icon-goggles:link,
 .icon-goggles:visited {
