@@ -18,30 +18,35 @@
   width: device-width;
   scale: 1; }
 
+/* line 7, /Users/User/Desktop/dsn1686-icons-sass/scss/components/main */
 html {
   box-sizing: border-box;
-  -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%; }
 
+/* line 16, /Users/User/Desktop/dsn1686-icons-sass/scss/components/main */
 *, *:before, *:after {
   box-sizing: inherit; }
 
+/* line 20, /Users/User/Desktop/dsn1686-icons-sass/scss/components/main */
 html {
   background-color: #E3A24A;
   font-size: 1.5rem;
   line-height: 2rem; }
 
+/* line 26, /Users/User/Desktop/dsn1686-icons-sass/scss/components/main */
 main h1, p {
   text-align: center; }
 
+/* line 31, /Users/User/Desktop/dsn1686-icons-sass/scss/components/main */
 h1 {
   font-family: 'Josefin Slab', Serif;
   font-size: 3rem;
   text-transform: uppercase;
   margin: 0 auto 1rem; }
 
+/* line 38, /Users/User/Desktop/dsn1686-icons-sass/scss/components/main */
 main p {
   font-family: 'lato', sans-serif;
   max-width: 20rem;
@@ -49,23 +54,26 @@ main p {
   display: block;
   margin: 0 auto 0; }
 
+/* line 47, /Users/User/Desktop/dsn1686-icons-sass/scss/components/main */
 .icon-goggles {
   font-size: 10rem;
   display: block;
   width: 13rem;
   margin: 2rem auto 0;
-  color: #3c3e6d; }
+  color: #3C3E6D; }
+  /* line 7, /Users/User/Desktop/dsn1686-icons-sass/scss/mixins */
   .icon-goggles:hover {
-    color: white; }
+    color: #fff; }
 
-.icon-goggles:link,
-.icon-goggles:visited {
+/* line 52, /Users/User/Desktop/dsn1686-icons-sass/scss/components/main */
+.icon-goggles:link, .icon-goggles:visited {
   color: #000; }
 
-.icon-goggles:hover,
-.icon-goggles:active {
+/* line 57, /Users/User/Desktop/dsn1686-icons-sass/scss/components/main */
+.icon-goggles:hover, .icon-goggles:active {
   color: #3C3E6D; }
 
+/* line 62, /Users/User/Desktop/dsn1686-icons-sass/scss/components/main */
 .social-icons {
   display: block;
   width: 10rem;
@@ -74,12 +82,83 @@ main p {
   font-size: 3rem;
   color: #000; }
 
+/* line 71, /Users/User/Desktop/dsn1686-icons-sass/scss/components/main */
 .social-icons i {
   color: #000; }
 
+/* line 75, /Users/User/Desktop/dsn1686-icons-sass/scss/components/main */
 .social:link {
   color: #000; }
 
+/* line 79, /Users/User/Desktop/dsn1686-icons-sass/scss/components/main */
 .social:hover {
   color: #fff;
   background-color: #3C3E6D; }
+
+@font-face {
+  font-family: 'custom-font';
+  src: url('../../fonts/custom-font.eot?92595960');
+  src: url('../../fonts/custom-font.eot?92595960#iefix') format('embedded-opentype'), url('../../fonts/custom-font.woff?92595960') format('woff'), url('../../fonts/custom-font.ttf?92595960') format('truetype'), url('../../fonts/custom-font.svg?92595960#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?92595960#fontello') format('svg');
+  }
+}
+*/
+/* line 22, /Users/User/Desktop/dsn1686-icons-sass/scss/components/custom-font */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "custom-font";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0.2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: 0.2em
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
+
+/* line 53, /Users/User/Desktop/dsn1686-icons-sass/scss/components/custom-font */
+.icon-goggles:before {
+  content: '\e800'; }
+
+/* '' */
+/* line 54, /Users/User/Desktop/dsn1686-icons-sass/scss/components/custom-font */
+.icon-paperplane:before {
+  content: '\e805'; }
+
+/* '' */
+/* line 55, /Users/User/Desktop/dsn1686-icons-sass/scss/components/custom-font */
+.icon-linkedin:before {
+  content: '\e806'; }
+
+/* '' */
+/* line 56, /Users/User/Desktop/dsn1686-icons-sass/scss/components/custom-font */
+.icon-insta:before {
+  content: '\e807'; }
+
+/* '' */
+/* line 57, /Users/User/Desktop/dsn1686-icons-sass/scss/components/custom-font */
+.icon-twitter:before {
+  content: '\e808'; }
+
+/* '' */
