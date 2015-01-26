@@ -29,7 +29,7 @@ main h1, p{
 }
 
 h1 {
-	font-family: 'Josefin Slab', Serif;
+	font-family: $josefin;
 	font-size: 3rem;
 	text-transform: uppercase;
 	margin: 0 auto 1rem;
@@ -45,7 +45,7 @@ main p {
 }
 
 .icon-goggles {
-	@include button(10rem, $primary, $secondary);
+	@include bob(10rem, $primary, $secondary);
 }
 
 .icon-goggles:link,
